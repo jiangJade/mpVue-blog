@@ -1,0 +1,10 @@
+<!--pages/index/typeScript/typeScript.js.wxml-->
+<view class="content">
+  <view class="title">
+  TS基础
+  </view>
+  <view class="subContent">
+    <image class="imgStyle" src="../../../images/tsImg/tsInterface.jpg"/>
+    <image class="imgStyle" src="../../../images/tsImg/initType2.jpg"/>
+  </view>
+</view>

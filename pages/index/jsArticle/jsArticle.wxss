@@ -1,0 +1,27 @@
+.jsBasiceBox {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20rpx;
+    box-sizing: border-box;
+    font-size: 16rpx;
+}
+.content {
+  font-size: 18rpx;
+}
+.title {
+  font-size: 20rpx;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.subTitle {
+  font-size: 16rpx;
+  font-weight: 400;
+}
+.paddingTop {
+  padding-top: 20rpx;
+}
+.paddingLeft {
+  padding-left: 30rpx;
+}

@@ -1,0 +1,8 @@
+<view class="content">
+  <view>
+    <view class="title">同时使用display: block和position: absolute（fixed）</view>
+    <view class="subContent">
+      <image src="../../../images/displayBlockPosition.png"></image>
+    </view>
+  </view>
+</view>

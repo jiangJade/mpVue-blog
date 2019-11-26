@@ -1,0 +1,12 @@
+.content {
+  height: 100%;
+  width: 100%;
+  padding: 0 20rpx;
+}
+.title {
+  font-size: 16rpx;
+  font-weight: 600;
+}
+.imgStyle {
+  height: 100rpx;
+}

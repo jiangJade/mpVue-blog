@@ -1,0 +1,8 @@
+/* pages/index/baseCss.wxss */
+.content {
+  padding: 0 20rpx;
+}
+.title {
+  font-size: 18rpx;
+  font-weight: 600;
+}

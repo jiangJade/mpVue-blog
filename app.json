@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/component/jsContent/jsContent",
+    "pages/component/newArticle/newArticle",
+    "pages/component/javaStudy/javaStudy",
+    "pages/index/jsArticle/jsArticle",
+    "pages/index/baseCss/baseCss",
+    "pages/index/typeScripts/typeScripts",
+    "pages/index/javaStudy/javaStudy.js"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "前端爆小海",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tab-about-on.png",
+        "selectedIconPath": "images/tab-about-on.png",
+        "text": "前端"
+      },
+      {
+        "pagePath": "pages/component/javaStudy/javaStudy",
+        "iconPath": "images/javaImg/javaLog.jpg",
+        "selectedIconPath": "images/javaImg/javaLog.jpg",
+        "text": "java"
+      },
+      {
+        "pagePath": "pages/component/newArticle/newArticle",
+        "iconPath": "images/category.png",
+        "selectedIconPath": "images/category.png",
+        "text": "最新文章"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

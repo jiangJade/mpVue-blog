@@ -1,0 +1,39 @@
+<view class="jsBasiceBox">
+    <text class="userinfo-nickname">javaScript基础</text>
+    <view>
+        <view class="title">Prop in Object</view>
+        <text>如果指定的属性在指定的对象或者原型链上 则in运算符返回true；</text>
+        <view class="title">prop</view>
+        <text class="content">
+          一个字符串类型或者 symbol 类型的属性名或者数组索引（非                symbol类型将会强制转为字符串）
+        </text>
+        <image src="../../../images/objectInImages.png" />
+    </view>
+    <view class="content">
+      迭代是指按顺序访问数组或者对象中的每一项
+      如果你使用 delete 运算符删除了一个属性，则 in 运算符对所删除属性返回 false。
+      <view class="title">IndexOf（item, start）</view>
+      <view>IndexOf() 该方法搜索指定元素值位置，并返回下标。 不存在则返回-1；
+      Start可以不用传 start可以是负数 数组默认下标为0</view>
+      <view class="title">lastIndexOf(item, start)</view>
+      <text>是从末尾开始查找</text>
+      <view>forEach，filter，every，some会跳过空位，map会跳过空位，但是会保留这个值。
+      </view>
+      <view>
+        <view class="title">es6深拷贝</view>
+        Object.getOwnPropertyDescriptors 方法配合 Object.defineProperties 方法，就可以实现正确拷贝
+      </view>
+      <view class="content paddingTop">
+        <text class="title">Proxy的理解</text>
+        <view class="title">用于修改某些操作的默认行为，等同于在语言层面做出修改，所以属于一种“元编程”, 即对编程语言进行编程</view>
+        <view>
+          <text class="subTitle paddingLeft">
+            元编程就是可以使用其他程序来作为输入数据的一种编程技术
+          </text>
+          <view class="paddingTop">
+            Proxy可以用于更改方法的默认输出，比如get方法取不到值时不返回undefined，以及在set方法上加验证及数据绑定等等，很强大也有用，需熟练掌握。
+          </view>
+        </view>
+      </view>
+    </view>
+</view>
